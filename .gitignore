@@ -1,0 +1,10 @@
+# Compiled WebAssembly binaries
+*.wasm
+
+# Compiled OS executables
+*.exe
+aegis-proxy
+
+# IDE / Editor folders
+.vscode/
+.idea/
