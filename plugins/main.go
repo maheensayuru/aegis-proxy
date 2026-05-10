@@ -22,7 +22,7 @@ func check_request(pathPtr uint32, pathLen uint32) uint32 {
 	fmt.Printf("[Wasm Sandbox] Reading memory at offset %d: '%s'\n", pathPtr, path)
 
 	if path == "/admin" {
-		return 0 // Unauthorized
+		return 1 // Unauthorized
 	}
 
 	return 1 // Authorized
